@@ -1,0 +1,14 @@
+{
+  "name": "monolith",
+  "author": "oneofthezombies",
+  "license": "MIT",
+  "description": "Endpoints for a monolithic architecture.",
+  "type": "module",
+  "scripts": {
+    "build": "echo hello"
+  },
+  "devDependencies": {
+    "@types/node": "22.10.2",
+    "typescript": "5.7.2"
+  }
+}
