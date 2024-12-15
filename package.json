@@ -1,19 +1,19 @@
 {
   "name": "billing-stack-portfolio",
-  "description": "A billing stack built to avoid \"lock-in\" to any specific cloud environment, enabling deployment on-premise or in any cloud platform.",
-  "author": "oneofthezombies",
-  "license": "MIT",
   "private": true,
+  "description": "A billing stack built to avoid \"lock-in\" to any specific cloud environment, enabling deployment on-premise or in any cloud platform.",
+  "license": "MIT",
+  "author": "oneofthezombies",
   "workspaces": [
     "packages/*"
   ],
-  "volta": {
-    "node": "22.12.0",
-    "npm": "10.9.2"
-  },
   "scripts": {
     "build": "npm run build --workspaces",
     "test": "npm run test --workspaces"
   },
-  "packageManager": "npm@10.9.2"
+  "packageManager": "npm@10.9.2",
+  "volta": {
+    "node": "22.12.0",
+    "npm": "10.9.2"
+  }
 }

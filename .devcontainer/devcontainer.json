@@ -47,7 +47,8 @@
           "noninteractive",
           "oneofthezombies",
           "pgdata",
-          "squeezy"
+          "squeezy",
+          "vercel"
         ],
         "editor.rulers": [80]
       }

@@ -1,14 +1,23 @@
 {
   "name": "monolith",
-  "author": "oneofthezombies",
+  "description": "Endpoint for a monolithic architecture.",
   "license": "MIT",
-  "description": "Endpoints for a monolithic architecture.",
+  "author": "oneofthezombies",
   "type": "module",
   "scripts": {
-    "build": "echo hello"
+    "build": "next build"
+  },
+  "dependencies": {
+    "express": "4.21.2",
+    "next": "15.1.0",
+    "react": "19.0.0",
+    "react-dom": "19.0.0"
   },
   "devDependencies": {
+    "@types/express": "5.0.0",
     "@types/node": "22.10.2",
+    "@types/react": "19.0.1",
+    "@types/react-dom": "19.0.2",
     "typescript": "5.7.2"
   }
 }
