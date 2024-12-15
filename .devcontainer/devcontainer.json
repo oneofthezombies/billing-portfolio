@@ -2,10 +2,10 @@
   "customizations": {
     "vscode": {
       "extensions": [
+        "donjayamanne.githistory",
         "esbenp.prettier-vscode",
         "streetsidesoftware.code-spell-checker",
-        "Thinker.sort-json",
-        "donjayamanne.githistory"
+        "Thinker.sort-json"
       ],
       "settings": {
         "[javascript]": {
@@ -41,7 +41,9 @@
           "editor.formatOnSave": true
         },
         "cSpell.words": [
+          "donjayamanne",
           "esbenp",
+          "githistory",
           "noninteractive",
           "oneofthezombies",
           "pgdata",
